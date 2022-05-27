@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: rbac
+  config:
+    import:
+      - application-web.properties
+      - application-datasource.yml
+      - application-druid.properties
+      - application-mybatisPlus.properties
+      - application-log.properties
